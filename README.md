@@ -13,10 +13,10 @@ All processing is done locally for quick and secure usage.
 ## Test Usage Screenshots
 
 ### Step 1 – Paste YouTube URL and choose times  
-![Screenshot 1](screenshots/cap 1.png)
+![Screenshot 1](screenshots/cap%201.png)
 
 ### Step 2 – Final MP3 file ready
-![Screenshot 2](screenshots/cap 2.png)
+![Screenshot 2](screenshots/cap%202.png)
 
 ### Warning 
-![Screenshot 3](screenshots/cap3.png)
+![Screenshot 3](screenshots/cap%203.png)
