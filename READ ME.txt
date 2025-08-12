@@ -1,0 +1,25 @@
+1)time_to_seconds(time_str):
+Converts a time string in the format hh:mm:ss into the total number of seconds.
+It splits the input string into hours, minutes, and seconds, then converts them to seconds and returns the total.
+
+2)__init__(self):
+Initializes the VideoCutter class (a QWidget for the application).
+Sets up the window title, icon, and the UI elements like labels, buttons, and input fields.
+Initializes some attributes like the audio file name and temporary audio pattern.
+
+3)setup_ui(self):
+Sets up the layout and visual elements of the application window.
+It creates and arranges widgets like labels, text inputs for the YouTube video URL, start and end times, and buttons (Process and Exit).
+It applies styling (CSS-like) for the UI to improve appearance.
+
+4)validate_time_input(self, time_str):
+Validates whether the time string provided is in the correct hh:mm:ss format.
+It uses a regular expression to check the format and ensures the hours, minutes, and seconds are within valid ranges.
+
+5)process_video(self):
+Handles the logic for processing the video.
+It retrieves the YouTube URL and start/end times from the user input, validates them, and then proceeds to download and cut the video audio using yt-dlp and ffmpeg.
+If any errors occur (e.g., invalid input or file issues), it shows appropriate error messages.
+The audio is extracted from the video, and a specific segment (based on the user-defined start and end times) is saved as an MP3 file.
+
+Each function is aimed at providing a smooth workflow for extracting and cutting audio from a YouTube video based on user-defined timestamps.
